@@ -1,0 +1,17 @@
+sparrowNames,description,parmUnits,parmInit,parmMin,parmMax,parmType,parmCorrGroup
+incarea,Incremental catchment area,sqkm,19.46558963,0,1000,SOURCE,0
+MANP2012,Manure total phosphorus from livestock production (2012),kg/yr,0.039961998,0,1000,SOURCE,0
+PTSRC_KGP_WWTP,Municipal/domestic wastewater total phosphorus discharge to streams (2012),kg/yr,0.997033054,0,1000,SOURCE,0
+FERTP_NW_kg,Fertilizer total phosphorus applied to agricultural land (2012),kg/yr,0.035070407,0,1000,SOURCE,0
+FacPmine,Mined land permitted total phosphorus discharge to streams,kg/yr,2.950867561,0,1000,SOURCE,0
+URB_KM2,Urban land cover,sqkm,49.10783662,0,1000,SOURCE,0
+Pmines_v17,Mined area phosphorus content,ppm*sqkm,0.109158727,0,1000,SOURCE,0
+lGeolP,Log of phosphorus content of bed sediment in small pristine streams,unitless,0.591121516,-1000,1000,DELIVF,0
+lCAT_KFCTUP,Log of Kfactor (erodibility index) in upper soil layer,unitless,0.721965728,-1000,1000,DELIVF,0
+lWTdepth,Log of depth to water table,meters,-0.770689292,-1000,1000,DELIVF,0
+lCAT_CPRAC7_13,Log of percent of catchment in cover crops (2012),percent,-0.135308416,-1000,1000,DELIVF,0
+lPredRunoff_SESpar_mm,Log of incremental flow from catchment to stream,mm/yr,0.530234944,-1000,1000,DELIVF,0
+contrchdecay_RRLite,Reach time of travel per meter of stream depth,days,0.093781884,-1000,1000,STRM,0
+PowerConsu_QAed,Consumptive use at power plants (2010),fraction,1.282,1.282,1.282,STRM,0
+SWWithdrPopS,Surface-water withdrawal for municipal water supply based on population served (2013),fraction,1.057,1.057,1.057,STRM,0
+rhload_withNID_ypm_NotKL,Reciprocal areal hydraulic load for water bodies not in karst landscape,m/yr,14.6326312,0,1000,RESV,0

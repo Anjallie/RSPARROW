@@ -1,0 +1,43 @@
+varType,sparrowNames,data1UserNames,varunits,explanation
+REQUIRED,waterid,ComID,NA,Reach ID number
+REQUIRED,fnode,cfromnode,NA,Reach from (upstream) node
+REQUIRED,tnode,ctonode,NA,Reach to (downstream) node
+REQUIRED,hydseq,Hydroseq,fraction,Hydrological sequence number (reach order number needed for sorting data1 file)
+REQUIRED,frac,frac,NA,Fraction of water/mass that is transported downstream of diversions
+REQUIRED,demiarea,IncAreaKm2,sqkm,Reach incrememental drainage area
+REQUIRED,iftran,iftran,NA,Flag indicating whether load is transported through reach (1=yes; 0=no)
+REQUIRED,termflag,TermFlag,NA,Flag indicating if reach is a terminal reach (1:yes; 0:no)
+REQUIRED,rchtype,rchtype,NA,Flag indicating type of reach
+REQUIRED,calsites,calsites,NA,Calibration site indicator
+FIXED,meanq,MAFlowUcfs,ft3/s,Mean annual streamflow
+FIXED,demtarea,TotAreaKM2,sqkm,Reach total drainage area (km2)
+FIXED,length,LENGTHKM,km ,Reach length
+FIXED,hload,hload,m/d,Water body hydraulic load (placeholder value)
+FIXED,rchtot,rchtot,days,Reach time of travel (days)
+FIXED,staid,staidnum,NA,Numeric station ID (sequence number assigned by user)
+FIXED,station_id,station_id_665,NA,Alphanumeric station ID
+FIXED,lat,lat,degrees,Station latitude
+FIXED,lon,lon,degrees,Station longitude
+FIXED,rchname,FL_GNIS_Na,NA,Reach name
+FIXED,target,delivery_target,NA,Flag indicating if reach is a target reach (1:yes; 0:no)
+FIXED,headflag,headflag,NA,Flag indicating if reach is a headwater reach (1:yes; 0:no)
+FIXED,depvar,flux_665_final_wcomb,kg/yr,Mean load response variable
+FIXED,depvar_se,depvar_se,kg/yr,Mean load response variable standard error (placeholder value)
+FIXED,station_name,FL_GNIS_Na,NA,Station name
+FIXED,weight,PlsWeight_mean,NA,NLLS weight used in calibration
+SOURCE,incarea,incarea,sqkm,Incremental catchment area
+SOURCE,MANP2012,MANP2012,kg/yr,Manure total phosphorus from livestock production (2012)
+SOURCE,PTSRC_KGP_WWTP,PTSRC_KGP_WWTP,kg/yr,Municipal/domestic wastewater total phosphorus discharge to streams (2012)
+SOURCE,FERTP_NW_kg,FERTP_NW_kg,kg/yr,Fertilizer total phosphorus applied to agricultural land (2012)
+SOURCE,FacPmine,FacPmine,kg/yr,Mined land permitted total phosphorus discharge to streams
+SOURCE,URB_KM2,URB_KM2,sqkm,Urban land cover
+SOURCE,Pmines_v17,Pmines_v17,ppm*sqkm,Mined area phosphorus content
+DELIVF,lGeolP,lGeolP,unitless,Log of phosphorus content of bed sediment in small pristine streams
+DELIVF,lCAT_KFCTUP,lCAT_KFCTUP,unitless,Log of Kfactor (erodibility index) in upper soil layer
+DELIVF,lWTdepth,lWTdepth,meters,Log of depth to water table
+DELIVF,lCAT_CPRAC7_13,lCAT_CPRAC7_13,percent,Log of percent of catchment in cover crops (2012)
+DELIVF,lPredRunoff_SESpar_mm,lPredRunoff_SESpar_mm,mm/yr,Log of incremental flow from catchment to stream
+STRM,contrchdecay_RRLite,contrchdecay_RRLite,days,Reach time of travel per meter of stream depth
+STRM,PowerConsu_QAed,PowerConsu_QAed,fraction,Consumptive use at power plants (2010)
+STRM,SWWithdrPopS,SWWithdrPopS,fraction,Surface-water withdrawal for municipal water supply based on population served (2013)
+RESV,rhload_withNID_ypm_NotKL,rhload_withNID_ypm_NotKL,m/yr,Reciprocal areal hydraulic load for water bodies not in karst landscape

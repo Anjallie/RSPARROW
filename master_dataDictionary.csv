@@ -1,0 +1,43 @@
+varType,sparrowNames,data1UserNames,varunits,explanation,run_id,duplicate_sparrowName
+"REQUIRED","waterid","ComID",NA,"Reach ID number","Model1_est_wt",0
+"REQUIRED","fnode","cfromnode",NA,"Reach from (upstream) node","Model1_est_wt",0
+"REQUIRED","tnode","ctonode",NA,"Reach to (downstream) node","Model1_est_wt",0
+"REQUIRED","hydseq","Hydroseq","fraction","Hydrological sequence number (reach order number needed for sorting data1 file)","Model1_est_wt",0
+"REQUIRED","frac","frac",NA,"Fraction of water/mass that is transported downstream of diversions","Model1_est_wt",0
+"REQUIRED","demiarea","IncAreaKm2","sqkm","Reach incrememental drainage area","Model1_est_wt",0
+"REQUIRED","iftran","iftran",NA,"Flag indicating whether load is transported through reach (1=yes; 0=no)","Model1_est_wt",0
+"REQUIRED","termflag","TermFlag",NA,"Flag indicating if reach is a terminal reach (1:yes; 0:no)","Model1_est_wt",0
+"REQUIRED","rchtype","rchtype",NA,"Flag indicating type of reach","Model1_est_wt",0
+"REQUIRED","calsites","calsites",NA,"Calibration site indicator","Model1_est_wt",0
+"FIXED","meanq","MAFlowUcfs","ft3/s","Mean annual streamflow","Model1_est_wt",0
+"FIXED","demtarea","TotAreaKM2","sqkm","Reach total drainage area (km2)","Model1_est_wt",0
+"FIXED","length","LENGTHKM","km","Reach length","Model1_est_wt",0
+"FIXED","hload","hload","m/d","Water body hydraulic load (placeholder value)","Model1_est_wt",0
+"FIXED","rchtot","rchtot","days","Reach time of travel (days)","Model1_est_wt",0
+"FIXED","staid","staidnum",NA,"Numeric station ID (sequence number assigned by user)","Model1_est_wt",0
+"FIXED","station_id","station_id_665",NA,"Alphanumeric station ID","Model1_est_wt",0
+"FIXED","lat","lat","degrees","Station latitude","Model1_est_wt",0
+"FIXED","lon","lon","degrees","Station longitude","Model1_est_wt",0
+"FIXED","rchname","FL_GNIS_Na",NA,"Reach name","Model1_est_wt",0
+"FIXED","target","delivery_target",NA,"Flag indicating if reach is a target reach (1:yes; 0:no)","Model1_est_wt",0
+"FIXED","headflag","headflag",NA,"Flag indicating if reach is a headwater reach (1:yes; 0:no)","Model1_est_wt",0
+"FIXED","depvar","flux_665_final_wcomb","cfs","Mean load response variable","Model1_est_wt",0
+"FIXED","depvar_se","depvar_se","cfs","Mean load response variable standard error (placeholder value)","Model1_est_wt",0
+"FIXED","station_name","FL_GNIS_Na",NA,"Station name","Model1_est_wt",0
+"FIXED","weight","PlsWeight_mean",NA,"NLLS weight used in calibration","Model1_est_wt",0
+"SOURCE","incarea","incarea","sqkm","Incremental catchment area","Model1_est_wt",0
+"SOURCE","MANP2012","MANP2012","kg/yr","Manure total phosphorus from livestock production (2012)","Model1_est_wt",0
+"SOURCE","PTSRC_KGP_WWTP","PTSRC_KGP_WWTP","kg/yr","Municipal/domestic wastewater total phosphorus discharge to streams (2012)","Model1_est_wt",0
+"SOURCE","FERTP_NW_kg","FERTP_NW_kg","kg/yr","Fertilizer total phosphorus applied to agricultural land (2012)","Model1_est_wt",0
+"SOURCE","FacPmine","FacPmine","kg/yr","Mined land permitted total phosphorus discharge to streams","Model1_est_wt",0
+"SOURCE","URB_KM2","URB_KM2","sqkm","Urban land cover","Model1_est_wt",0
+"SOURCE","Pmines_v17","Pmines_v17","ppm*sqkm","Mined area phosphorus content","Model1_est_wt",0
+"DELIVF","lGeolP","lGeolP","unitless","Log of phosphorus content of bed sediment in small pristine streams","Model1_est_wt",0
+"DELIVF","lCAT_KFCTUP","lCAT_KFCTUP","unitless","Log of Kfactor (erodibility index) in upper soil layer","Model1_est_wt",0
+"DELIVF","lWTdepth","lWTdepth","meters","Log of depth to water table","Model1_est_wt",0
+"DELIVF","lCAT_CPRAC7_13","lCAT_CPRAC7_13","percent","Log of percent of catchment in cover crops (2012)","Model1_est_wt",0
+"DELIVF","lPredRunoff_SESpar_mm","lPredRunoff_SESpar_mm","mm/yr","Log of incremental flow from catchment to stream","Model1_est_wt",0
+"STRM","contrchdecay_RRLite","contrchdecay_RRLite","days","Reach time of travel per meter of stream depth","Model1_est_wt",0
+"STRM","PowerConsu_QAed","PowerConsu_QAed","fraction","Consumptive use at power plants (2010)","Model1_est_wt",0
+"STRM","SWWithdrPopS","SWWithdrPopS","fraction","Surface-water withdrawal for municipal water supply based on population served (2013)","Model1_est_wt",0
+"RESV","rhload_withNID_ypm_NotKL","rhload_withNID_ypm_NotKL","m/yr","Reciprocal areal hydraulic load for water bodies not in karst landscape","Model1_est_wt",0
